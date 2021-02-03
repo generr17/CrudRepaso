@@ -80,7 +80,7 @@ int id=0;
             public void onClick(View v) {
                 int pos = Integer.parseInt(v.getTag().toString());
                 final Dialog dialog = new Dialog(a);
-                dialog.setTitle("Editar registro");
+                dialog.setTitle("Editar Registro");
                 dialog.setCancelable(true);
                 dialog.setContentView(R.layout.dialogo);
                 dialog.show();
